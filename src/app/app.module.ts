@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { GameCardComponent } from './components/game-card/game-card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { GameCardLabelComponent } from './components/game-card/game-card-label/game-card-label.component';
+import { GameCardPriceComponent } from './components/game-card/game-card-price/game-card-price.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     GameCardComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    GameCardLabelComponent,
+    GameCardPriceComponent
   ],
   imports: [
     BrowserModule,
