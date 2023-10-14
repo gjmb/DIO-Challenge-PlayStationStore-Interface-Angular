@@ -1,5 +1,13 @@
 .game-card-label-container{
 	position:absolute;
-	bottom: 90px;
+	bottom: 7rem;
 	right: 0;
+}
+
+.game-card-label-content{
+	display: flex;
+	align-items: center;
+	background: #0d0d0dd7;
+	padding: .5rem;
+	font-size: 15px;
 }

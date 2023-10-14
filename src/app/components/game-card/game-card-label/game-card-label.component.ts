@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-game-card-label',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./game-card-label.component.css']
 })
 export class GameCardLabelComponent {
+	@Input()
+	gameLabel:string="";
 
 }
