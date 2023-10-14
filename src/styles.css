@@ -4,12 +4,17 @@
   margin: 0;
   padding: 0;
 	border: 0;
-  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-  background-color: #191A1C;
+	font-family: 'Roboto', sans-serif;
   color:white;
 
 }
+
+body{
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,9,121,1) 100%);
+}
+
 
 a{
   text-decoration: none;
