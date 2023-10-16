@@ -7,6 +7,7 @@
 	display: flex;
 	overflow: hidden;
 	margin-right: 2rem;
+	margin-top: 1rem;
 }
 
 .game-card-container > a{
